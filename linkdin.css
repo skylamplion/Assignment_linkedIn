@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: 92%;
     position: sticky;
     display: flex;
     top: 0;
@@ -36,6 +37,7 @@ body{
 
 .header_right{
     display: flex;
+    justify-content: flex-start;
 }
 
 .header_search{
@@ -73,7 +75,7 @@ body{
 }
 
 .header_option_icon{
-    margin-right: 5px;
+    margin-right:10px;
     height: 20px;
     width:20px;
 }
@@ -90,11 +92,32 @@ body{
 /* side bar */
 .sidebar{
     position: sticky;
-    top: 80px;
+    top: 100px;
     flex:0.2;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
+}
+.sidebar h2{
+    margin-top: 50px;
+}
+.line{
+    width: 200px;
+}
+.group{
+color: blue;
+}
+.sidebar h6 {
+    color: gray;
+}
+.sidebar i{
+    width: 52px;
+    height: 10px;
+}
+.startpost{
+    width: 20px;
+    display: flex; 
+    padding: auto;
 }
 
 .sidebar_top img{
@@ -152,6 +175,11 @@ body{
     margin-top: 5px;
 }
 
+.sidebar_stat span{
+    padding-left: 0px;
+    margin-left:-1;
+}
+
 .sidebar_top h2{
     font-size: 18px;
 }
@@ -206,12 +234,16 @@ body{
 }
 
 .feed_input{
+    justify-content: start;
+    width: 600px;
     border: 1px solid lightgray;
     border-radius: 30px;
     display: flex;
+    display: grid 3px;
     padding: 10px;
     color: gray;
     padding-left: 15px;
+    
 }
 
 .feed_input form{
@@ -270,8 +302,12 @@ body{
     color: gray;
 }
 
-.post_info h2{
-    font-size: 15px;
+
+.post_info h6{
+    color: gray;
+}
+.post_info p{
+    color: black;
 }
 
 /* widget */
@@ -330,12 +366,10 @@ body{
 
 .widgets2{
     background-color: white;
-    padding: 2px;
-    margin-bottom: 10px;
-    border-radius: 10px;
     height: fit-content;
     flex: 0.2;
     border:1px solid lightgray;
-    margin-top: 300px;
-    margin-left: -232px;
+    margin-left: -256px;
+    margin-left: -127px;
+    margin-top: 448px;
 }
